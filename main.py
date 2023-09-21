@@ -3,6 +3,7 @@ from diseaseClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrai
 from diseaseClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelPipeline
 
 
+
 STAGE_NAME = "Data Ingestion Stage"
 
 try:
@@ -27,4 +28,4 @@ except Exception as e:
     logger.exception(e)
     raise e
 
-        
+
